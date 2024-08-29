@@ -11,13 +11,32 @@ I am a research assistant at New York University, focusing on enhancing the resi
 
 With over five years of research experience, including internships at the National Renewable Energy Laboratory and NEC Laboratories America, Inc., I have gained practical insights into real-world power systems challenges. My work at these institutions involved state estimation research and the application of distributed fiber optic sensing technology for power grid monitoring. I am proficient in programming languages like Python, and I have published multiple papers in reputable journals and conferences. As a professional, I thrive in dynamic environments and am committed to collaborative teamwork.
 
-A data-driven personal website
+Research Interest
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Power system resiliency:** 
+- System hardening in the predisturbance stage.
+- Lower degradation in the during disturbance stage.
+- Fast recovery in the post-disturbance stage.
+**Cyber-physical modeling and analysis of power systems:**
+- Communication network modeling for power systems.
+- Interdependency modeling between physical power and cyber networks.
+**AI applications in power systems:**
+- Deep learning and large language models in power systems.
+**State estimation:**
+- State estimation for distribution systems with DERs.
+**Power system monitoring:**
+- Sensor placement for resilient monitoring.
+- Resilient data routing.
+**Cybersecurity in power systems:**
+- Cyber attack detection and isolation.
 
+
+
+[\
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+\]
 
-Getting started
+Research Projects
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
