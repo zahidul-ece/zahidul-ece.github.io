@@ -16,19 +16,19 @@ Research Interest
 **Power system resiliency:** 
 - System hardening in the predisturbance stage.
 - Lower degradation in the during disturbance stage.
-- Fast recovery in the post-disturbance stage.
+- Fast recovery in the post-disturbance stage.  
 **Cyber-physical modeling and analysis of power systems:**
 - Communication network modeling for power systems.
-- Interdependency modeling between physical power and cyber networks.
+- Interdependency modeling between physical power and cyber networks.  
 **AI applications in power systems:**
-- Deep learning and large language models in power systems.
+- Deep learning and large language models in power systems.  
 **State estimation:**
-- State estimation for distribution systems with DERs.
+- State estimation for distribution systems with DERs.  
 **Power system monitoring:**
 - Sensor placement for resilient monitoring.
-- Resilient data routing.
+- Resilient data routing.  
 **Cybersecurity in power systems:**
-- Cyber attack detection and isolation.
+- Cyber attack detection and isolation.  
 
 
 
