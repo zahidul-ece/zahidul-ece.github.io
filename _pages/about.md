@@ -15,7 +15,7 @@ Research Interest
 ======
 **Power system resiliency:** 
 - System hardening in the predisturbance stage.
-- Lower degradation during disturbance stage.
+- Lower functionality degradation during disturbance stage.
 - Fast recovery in the post-disturbance stage.
 
 **Cyber-physical modeling and analysis of power systems:**
