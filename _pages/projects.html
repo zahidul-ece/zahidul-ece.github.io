@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Research"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2 style="color:#1E90FF;">Motivation</h2>
+<p>
+The modern power grid is evolving into a highly complex cyber-physical system, integrating DERs, electric vehicles, smart devices, and advanced communication networks. 
+While these advancements enhance efficiency and sustainability, they also introduce new vulnerabilities, including cyber threats, high-impact disruptions, and operational uncertainty. 
+Frequent natural disasters and cyberattacks further challenge grid reliability, demanding a resilient, intelligent, and adaptive infrastructure.
+My research focuses on addressing these challenges through three core areas:
+</p>
+
+<ul>
+  <li> <strong>Sensing and Communication Infrastructure for Grid Monitoring</strong></li>
+  <li> <strong>Data Analytics for Grid Situational Awareness</strong></li>
+  <li> <strong>Situation-Aware Resilience of Cyber-Physical Power Systems</strong></li>
+</ul>
+
+{% for project in site.projects %}
+  <div style="margin-bottom: 50px;"> <!-- Adds space between projects -->
+    <h2 style="color:#1E90FF; margin-bottom: 5px;">{{ project.title | markdownify | strip_html }}</h2> <!-- Title with small spacing -->
+    <hr style="border: 1px solid #1E90FF; margin-top: 5px; margin-bottom: 15px;"> <!-- Horizontal line under title -->
+
+    <div style="margin-bottom: 10px;"> <!-- Reduces spacing within the project content -->
+      {{ project.content | markdownify | strip_html }}
+    </div>
+
+    {% assign matched_publications = "" | split: "," %} <!-- Initialize empty array -->
+
+    {% if project.keywords %}
+      {% assign project_keywords = project.keywords | downcase | split: ", " %}
+      
+      {% for pub in site.publications %}
+        {% assign pub_title = pub.title | downcase %}
+        
+        {% for keyword in project_keywords %}
+          {% if pub_title contains keyword %}
+            {% assign matched_publications = matched_publications | push: pub %}
+            {% break %} <!-- Avoid adding the same publication multiple times -->
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+
+    {% if matched_publications.size > 0 %}
+      <h3>Relevant Publications</h3>
+      <ul>
+      {% for pub in matched_publications %}
+        <li>
+          {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} 
+          <a href="{{ pub.paper_link }}" target="_blank">[Read Here]</a>
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endfor %}

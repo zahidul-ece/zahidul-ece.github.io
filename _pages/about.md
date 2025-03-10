@@ -7,50 +7,47 @@ redirect_from:
   - /about.html
 ---
 
-I am a research assistant at New York University, focusing on enhancing the resilience and situational awareness of power systems by addressing the cyber-physical interdependencies within these systems. Currently pursuing my PhD in Electrical Engineering, my research centers on power distribution systems, and I am driven by a passion to solve the pressing challenges and leverage the opportunities within the energy sector.
+Md Zahidul Islam is a Ph.D. candidate at New York University, specializing in cyber-physical power systems and advised by Dr. Yuzhang Lin. Prior to his Ph.D., he received his B.Sc. and M.Sc. degrees in electrical and electronic engineering from the Bangladesh University of Engineering and Technology, Dhaka, Bangladesh, in 2017 and 2021, respectively. Zahidul has gained valuable industry experience through internships at the National Renewable Energy Laboratory (NREL) and NEC Laboratories America, Inc. He has contributed to over eight research projects funded by federal agencies and industry partners. His research has had practical impacts, including adoption by utilities such as Con Edison and the New York Power Authority. He is a recipient of the NYU SOE Fellowship (2023) and has received travel grants for conferences such as IEEE PESGM 2024. 
 
-With over five years of research experience, including internships at the National Renewable Energy Laboratory and NEC Laboratories America, Inc., I have gained practical insights into real-world power systems challenges. My work at these institutions involved state estimation research and the application of distributed fiber optic sensing technology for power grid monitoring. I am proficient in programming languages like Python, and I have published multiple papers in reputable journals and conferences. As a professional, I thrive in dynamic environments and am committed to collaborative teamwork.
+
+
+Research Statement
+======
+Md Zahidul Islam’s research focuses on power systems, with a particular emphasis on situational awareness, cyber-physical modeling and resilience, and machine learning applications. By adopting an interdisciplinary approach that integrates mathematical optimization, graph theory, and machine learning with power and cyber network engineering, Zahidul has developed innovative methodologies for enhancing grid monitoring and resilience. Looking ahead, he aims to shape the future power grid by leveraging grid-edge resources, developing physics-informed AI-driven decision support tools, and advancing microgrid technologies. He plans to collaborate with universities, national laboratories, and industry partners while pursuing funding from agencies such as NSF, DOE, and ONR to build resilient and sustainable power systems.
 
 Research Interest
 ======
-**Power system resiliency:** 
+- Power system resilience
+- Cyber-physical modeling & analysis of power systems
+- AI applications in power systems
+- Power system monitoring
+- Cybersecurity in power systems
+- State estimation
+
+<!-- **Power system resiliency:** 
 - System hardening in the predisturbance stage.
-- Lower functionality degradation during disturbance stage.
+- Minimal functionality degradation during disturbance stage.
 - Fast recovery in the post-disturbance stage.
 
 **Cyber-physical modeling and analysis of power systems:**
 - Communication network modeling for power systems.
 - Interdependency modeling between physical power and cyber networks.
+- Resilience enhancement for cyber-physical system.
 
 **AI applications in power systems:**
 - Deep learning and large language models in power systems.
 
-**State estimation:**
-- State estimation for distribution systems with DERs.
-
 **Power system monitoring:**
 - Sensor placement for resilient monitoring.
-- Resilient data routing.
+- Resilient data routing in communication network.
 
 **Cybersecurity in power systems:**
-- Cyber attack detection and isolation.  
+- Cyber attack detection and recovery.  
 
+**State estimation:**
+- State estimation for distribution systems with DERs. -->
 
-
-<!---
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
--->
-
-Research Projects
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+<!-- Site-wide configuration
 ------
 The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
@@ -72,4 +69,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

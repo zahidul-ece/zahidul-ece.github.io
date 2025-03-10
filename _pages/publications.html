@@ -6,13 +6,76 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{https://scholar.google.com/citations?hl=en&user=i_ebAeUAAAAJ&view_op=list_works&sortby=pubdate}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?hl=en&user=i_ebAeUAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">my Google Scholar profile</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
+<!-- ---
+layout: default
+title: "Publications"
+permalink: /publications/
+--- -->
+
+<!-- <h1>Publications</h1> -->
+
+<!-- Sort publications using precomputed sort_key -->
+{% assign sorted_publications = site.publications | sort: 'sort_key' | reverse %}
+
+<h2>Book Chapters</h2>
+<ul>
+{% for pub in sorted_publications %}
+  {% if pub.category == "Book Chapter" %}
+    <li>
+      {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} 
+      <a href="{{ pub.paper_link }}">[Read Here]</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Journal Papers</h2>
+<ul>
+{% for pub in sorted_publications %}
+  {% if pub.category == "Journal" %}
+    <li>
+      {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} 
+      <a href="{{ pub.paper_link }}">[Read Here]</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Conference Papers</h2>
+<ul>
+{% for pub in sorted_publications %}
+  {% if pub.category == "Conference" %}
+    <li>
+      {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} 
+      <a href="{{ pub.paper_link }}">[Read Here]</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Manuscripts Under Review</h2>
+<ul>
+{% for pub in sorted_publications %}
+  {% if pub.category == "Manuscripts Under Review" %}
+    <li>
+      {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<!-- FOOTNOTE -->
+<hr>
+<p><em>* Corresponding author.</em></p>
+
+
 <!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
+<!-- {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -30,7 +93,7 @@ author_profile: true
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %}
+{% endif %} -->
 
 
 
