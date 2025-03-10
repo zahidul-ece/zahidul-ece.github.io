@@ -7,27 +7,31 @@ author_profile: true
 
 {% include base_path %}
 
-<h2 style="color:#1E90FF;">Motivation</h2>
+<h2 style="color:#58afc9;">Motivation</h2>
 <p>
-The modern power grid is evolving into a highly complex cyber-physical system, integrating DERs, electric vehicles, smart devices, and advanced communication networks. 
-While these advancements enhance efficiency and sustainability, they also introduce new vulnerabilities, including cyber threats, high-impact disruptions, and operational uncertainty. 
-Frequent natural disasters and cyberattacks further challenge grid reliability, demanding a resilient, intelligent, and adaptive infrastructure.
-My research focuses on addressing these challenges through three core areas:
+  The modern <strong>power grid</strong> is evolving into a highly complex <strong>cyber-physical system</strong>, integrating 
+  <strong>DERs</strong>, <strong>electric vehicles</strong>, <strong>smart devices</strong>, and advanced <strong>communication networks</strong>.
+  While these advancements enhance <strong>efficiency</strong> and <strong>sustainability</strong>, they also introduce new 
+  <strong>vulnerabilities</strong>, including <strong>cyber threats</strong>, <strong>high-impact disruptions</strong>, and 
+  <strong>operational uncertainty</strong>.
+  Frequent <strong>natural disasters</strong> and <strong>cyberattacks</strong> further challenge <strong>grid reliability</strong>, 
+  demanding a <strong>resilient</strong>, <strong>intelligent</strong>, and <strong>adaptive</strong> infrastructure.
 </p>
 
+My research focuses on addressing these challenges through three core areas:
 <ul>
-  <li> <strong>Sensing and Communication Infrastructure for Grid Monitoring</strong></li>
-  <li> <strong>Data Analytics for Grid Situational Awareness</strong></li>
-  <li> <strong>Situation-Aware Resilience of Cyber-Physical Power Systems</strong></li>
+  <li><strong>Sensing and Communication Infrastructure for Grid Monitoring</strong></li>
+  <li><strong>Data Analytics for Grid Situational Awareness</strong></li>
+  <li><strong>Situation-Aware Resilience of Cyber-Physical Power Systems</strong></li>
 </ul>
 
 {% for project in site.projects %}
   <div style="margin-bottom: 50px;"> <!-- Adds space between projects -->
-    <h2 style="color:#1E90FF; margin-bottom: 5px;">{{ project.title | markdownify | strip_html }}</h2> <!-- Title with small spacing -->
-    <hr style="border: 1px solid #1E90FF; margin-top: 5px; margin-bottom: 15px;"> <!-- Horizontal line under title -->
+    <h2 style="color:#58afc9; margin-bottom: 5px;">{{ project.title | markdownify }}</h2> <!-- Preserve Markdown formatting -->
+    <hr style="border: 2px solid #58afc9; margin-top: 5px; margin-bottom: 15px;"> <!-- Enhanced project title separation -->
 
-    <div style="margin-bottom: 10px;"> <!-- Reduces spacing within the project content -->
-      {{ project.content | markdownify | strip_html }}
+    <div style="margin-bottom: 10px; line-height: 1.5;"> <!-- Adjust spacing within project -->
+      {{ project.content | markdownify }}
     </div>
 
     {% assign matched_publications = "" | split: "," %} <!-- Initialize empty array -->
@@ -48,12 +52,12 @@ My research focuses on addressing these challenges through three core areas:
     {% endif %}
 
     {% if matched_publications.size > 0 %}
-      <h3>Relevant Publications</h3>
-      <ul>
+      <h3 style="margin-top: 20px;">📄 Relevant Publications</h3>
+      <ul style="padding-left: 20px;">
       {% for pub in matched_publications %}
         <li>
-          {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }} 
-          <a href="{{ pub.paper_link }}" target="_blank">[Read Here]</a>
+          {{ pub.title | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines}} 
+          <a href="{{ pub.paper_link }}" target="_blank" style="color:#58afc9; text-decoration: none;">[Read Here]</a>
         </li>
       {% endfor %}
       </ul>

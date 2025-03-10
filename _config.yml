@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zahidul Islam / Personal Site"
+title                    : "Zahidul Islam"
 title_separator          : "-"
 name                     : &name "Zahidul Islam"
 description              : &description "personal description"
