@@ -18,7 +18,7 @@ I am actively **recruiting highly motivated Ph.D. students** to join my research
 
 
 ## 🔬 **Research Interest**
-My research focuses on **smart grid monitoring, cyber-physical power system resilience and security, machine learning applications in power systems, and grid-edge resource management and optimization**. My work specifically emphasizes **power distribution systems** and the **emerging challenges associated with their modern grid operations.**
+My research focuses on **smart grid monitoring, cyber-physical power system resilience and security, machine learning applications in power systems, and grid-edge resource management and optimization**. My work specifically emphasizes **power distribution systems** and the **emerging challenges associated with modern grid operations.**
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start;">
