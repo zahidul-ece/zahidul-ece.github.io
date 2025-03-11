@@ -14,8 +14,9 @@ I am a **Ph.D. candidate at <a href="https://engineering.nyu.edu/academics/depar
 ## 🎯 **Hiring PhD Students!**
 I will be joining **<a href="https://siu.edu/" style="text-decoration:none;">Southern Illinois University Carbondale (SIU)</a>** as an **Assistant Professor** in the **<a href="https://ecbe.siu.edu/" style="text-decoration:none;">School of Electrical, Computer, and Biomedical Engineering (ECBE)</a>** starting in **Fall 2025**.
 
-I am actively **recruiting highly motivated Ph.D. students** to join my research group. If you are passionate about **power systems** and want to pursue **cutting-edge research**, feel free to reach out at **zahidul.islam@nyu.edu**.
+I am actively **recruiting highly motivated Ph.D. students** to join my research group. If you are passionate about **power systems** and want to pursue **cutting-edge research**, feel free to reach out at **zahidul.islam@nyu.edu**. 
 
+**Learn more about the open position on the [Openings](/opening/) page.**
 
 ## 🔬 **Research Interest**
 My research focuses on **smart grid monitoring, cyber-physical power system resilience and security, machine learning applications in power systems, and grid-edge resource management and optimization**. My work specifically emphasizes **power distribution systems** and the **emerging challenges associated with modern grid operations.**
