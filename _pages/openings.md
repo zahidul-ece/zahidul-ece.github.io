@@ -34,7 +34,7 @@ I am recruiting multiple PhD students to join my research lab starting Fall 2025
 ---
 
 ## **How to Apply**
-Interested candidates should contact me at **[zahidul.islam@nyu.edu](mailto:zahidul.islam@nyu.edu)** with the following documents: 
+Interested candidates should contact me at **[mdzahidul.islam@siu.edu](mailto:mdzahidul.islam@siu.edu)** with the following documents: 
 <br>
 ✔ CV  
 ✔ Transcripts  

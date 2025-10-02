@@ -6,20 +6,41 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- run in local: 
+bundle exec jekyll serve -l -H localhost
+git add .
+git status
+git commit -m "updated text"
+git push origin master
 
+ -->
 ## 👨‍🎓 About Me
-I am a **Ph.D. candidate at <a href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering" style="text-decoration:none;">New York University</a>**, specializing in **cyber-physical power systems** and advised by <a href="https://engineering.nyu.edu/faculty/yuzhang-lin" style="text-decoration:none;">Dr. Yuzhang Lin</a>. Prior to my Ph.D., I received my **B.Sc. and M.Sc. degrees in Electrical and Electronic Engineering** from the **Bangladesh University of Engineering and Technology (BUET)**, Dhaka, Bangladesh, in **2017 and 2021**, respectively.
 
+I am an **Assistant Professor in the [School of Electrical, Computer, and Biomedical Engineering (ECBE)](https://ecbe.siu.edu/)** at **[Southern Illinois University Carbondale (SIU)](https://siu.edu/)**. 
 
-## 🎯 **Hiring PhD Students!**
-I will be joining **<a href="https://siu.edu/" style="text-decoration:none;">Southern Illinois University Carbondale (SIU)</a>** as an **Assistant Professor** in the **<a href="https://ecbe.siu.edu/" style="text-decoration:none;">School of Electrical, Computer, and Biomedical Engineering (ECBE)</a>** starting in **Fall 2025**.
+I obtained my **Ph.D. in Electrical and Computer Engineering** from **[New York University (NYU)](https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering)**, where I was advised by [Dr. Yuzhang Lin](https://engineering.nyu.edu/faculty/yuzhang-lin). Prior to that, I received my **B.Sc. and M.Sc. degrees in Electrical and Electronic Engineering** from the **Bangladesh University of Engineering and Technology (BUET)**, Dhaka, Bangladesh, in **2017 and 2021**, respectively.
 
-I am actively **recruiting highly motivated Ph.D. students** to join my research group. If you are passionate about **power systems** and want to pursue **cutting-edge research**, feel free to reach out at **zahidul.islam@nyu.edu**. 
+My research focuses on **smart grid monitoring, grid resilience, cyber-physical design and analysis, and AI applications**. I have worked with **NEC Laboratories America** on fiber sensing for grid monitoring and collaborate with the **National Renewable Energy Laboratory (NREL)** on resilience and security projects. I have contributed to **over eight federally funded and industry-supported projects**, with practical impact including adoption by utilities such as **Con Edison (New York City)** and the **New York Power Authority**.  
 
-**Learn more about the open position on the [Openings](/opening/) page.**
+<!-- I am a recipient of the **NYU SOE Fellowship (2023)** and have received multiple **travel grants** to present my research at top conferences including **IEEE PESGM** and **NAACL**.   -->
 
-## 🔬 **Research Interest**
-My research focuses on **smart grid monitoring, cyber-physical power system resilience and security, machine learning applications in power systems, and grid-edge resource management and optimization**. My work specifically emphasizes **power distribution systems** and the **emerging challenges associated with modern grid operations.**
+---
+
+## 🎯 **Hiring Ph.D. Students!**
+
+I am actively **recruiting highly motivated Ph.D. students** to join my research group at SIUC. If you are passionate about **power systems** and want to pursue **cutting-edge research** at the intersection of **cyber-physical systems, grid resilience, and AI**, feel free to reach out at **mdzahidul.islam@siu.edu**.  
+
+👉 **Learn more about open positions on the [Openings](/opening/) page.**
+
+---
+
+## 🔬 **Research Interests**
+
+- Smart grid monitoring and situational awareness  
+- Cyber-physical power system resilience and security  
+- Machine learning and AI applications in power systems  
+- Grid-edge resource management and optimization  
+- Power distribution systems and DER-rich environments  
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start;">
