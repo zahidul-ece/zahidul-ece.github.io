@@ -1,7 +1,7 @@
 ---
 title: "**M. Z. Islam***, Y. Ding, Y. Tian, T. Wang, Y. Lin, “Integration of Fiber Optic Sensing and Sparse Grid Sensors for
 Accurate Fault Localization in Distribution Systems”, 2025 IEEE Power & Energy Society General Meeting (PESGM),
-Austin, TX, USA, 2025 (accepted)."
+Austin, TX, USA, 2025."
 year: "2025"
 month: "2"
 sort_key: "202502"
@@ -12,7 +12,7 @@ paper_link: "nan"
 **Citation:**  
 **M. Z. Islam***, Y. Ding, Y. Tian, T. Wang, Y. Lin, “Integration of Fiber Optic Sensing and Sparse Grid Sensors for
 Accurate Fault Localization in Distribution Systems”, 2025 IEEE Power & Energy Society General Meeting (PESGM),
-Austin, TX, USA, 2025 (accepted).
+Austin, TX, USA, 2025.
 
 **Full Paper:**  
-[Read Here](nan)
+[Read Here](https://ieeexplore.ieee.org/document/11225816)
