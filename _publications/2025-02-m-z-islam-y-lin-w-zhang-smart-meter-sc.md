@@ -5,7 +5,7 @@ year: "2025"
 month: "2"
 sort_key: "202502"
 category: "Journal"
-paper_link: "nan"
+paper_link: "https://ieeexplore.ieee.org/abstract/document/11215656"
 # layout: publication
 ---
 **Citation:**  

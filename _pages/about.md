@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 <!-- run in local: 
-bundle exec jekyll serve -l -H localhost
+bundle exec jekyll serve -l -H localhost 
+
 git add .
 git status
 git commit -m "updated text"

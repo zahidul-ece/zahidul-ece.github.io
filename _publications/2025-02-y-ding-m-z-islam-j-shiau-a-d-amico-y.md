@@ -4,7 +4,7 @@ year: "2025"
 month: "2"
 sort_key: "202502"
 category: "Conference"
-paper_link: "nan"
+paper_link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13639/136398B/Resilient-DFOS-placement-strategy-for-power-grid-monitoring--integrating/10.1117/12.3060520.short"
 # layout: publication
 ---
 **Citation:**  
