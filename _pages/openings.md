@@ -1,18 +1,19 @@
 ---
 layout: archive
-title: "Fully Funded PhD Positions in Smart Grid at SIUC"
+# title: "Fully Funded PhD Positions in Smart Grid at SIUC"
 permalink: /opening/
 author_profile: true
 ---
 
 <!-- # Fully Funded PhD Positions in Smart Grid at SIUC -->
 
-I am recruiting multiple PhD students to join my research lab starting Fall 2025 or Spring 2026. The recruited candidates will work on topics related to:
+Dr. Islam’s research group is seeking highly motivated M.S. and Ph.D. students in the School of ECBE at SIU. Research opportunities are available in the following areas:
 
 - **Smart grid monitoring**
 - **Cyber-physical power system resilience and security**
 - **Machine learning applications in power systems**
 - **Grid-edge resource management and optimization**
+- **Large language models for power systems**
 
 ---
 
@@ -34,7 +35,7 @@ I am recruiting multiple PhD students to join my research lab starting Fall 2025
 ---
 
 ## **How to Apply**
-Interested candidates should contact me at **[mdzahidul.islam@siu.edu](mailto:mdzahidul.islam@siu.edu)** with the following documents: 
+Interested candidates should contact Dr. Islam at **[mdzahidul.islam@siu.edu](mailto:mdzahidul.islam@siu.edu)** with the following documents: 
 <br>
 ✔ CV  
 ✔ Transcripts  
@@ -43,10 +44,4 @@ Interested candidates should contact me at **[mdzahidul.islam@siu.edu](mailto:md
 
 ---
 
-📄 **For full details, check the official position announcement:**
-[📥 Download PhD Open Position (PDF)](/assets/files/PhD_Opening_SIU.pdf)
-<!-- 📜 Inline Preview -->
-<iframe src="{{ '/assets/files/PhD_Opening_SIU.pdf' | relative_url }}" width="100%" height="800px">
-  <p>Your browser does not support iframes. Click <a href="{{ '/assets/files/PhD_Opening_SIU.pdf' | relative_url }}">here</a> to view the position.</p>
-</iframe> 
 
