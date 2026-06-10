@@ -58,7 +58,9 @@ permalink: /publications/
 {% endfor %}
 </ul>
 
+{% if pub.category == "Manuscripts Under Review" %}
 <h2>Manuscripts Under Review</h2>
+{% endif %}
 <ul>
 {% for pub in sorted_publications %}
   {% if pub.category == "Manuscripts Under Review" %}
