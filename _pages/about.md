@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Let’s Explore Power & AI Together!"
+# title: "Let’s Explore Power & AI Together!"
 author_profile: true
 redirect_from: 
   - /about/
