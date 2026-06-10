@@ -1,6 +1,6 @@
 ---
 title: "**M. Z. Islam**, Y. Lin, V. M. Vokkarane, “Disaster-Resilient Cyber-Physical Distribution System Reconfiguration and
-Dynamic Networked Microgrid Formation under Intermittent Generation”, IEEE Transactions on Industry Applications
+Dynamic Networked Microgrid Formation under Intermittent Generation”, IEEE Transactions on Industry Applications, 2025
 (accepted)."
 year: "2026"
 month: "2"
@@ -11,7 +11,7 @@ paper_link: "nan"
 ---
 **Citation:**  
 **M. Z. Islam**, Y. Lin, V. M. Vokkarane, “Disaster-Resilient Cyber-Physical Distribution System Reconfiguration and
-Dynamic Networked Microgrid Formation under Intermittent Generation”, IEEE Transactions on Industry Applications
+Dynamic Networked Microgrid Formation under Intermittent Generation”, IEEE Transactions on Industry Applications, 2025
 (accepted).
 
 **Full Paper:**  
