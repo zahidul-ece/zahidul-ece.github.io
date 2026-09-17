@@ -25,6 +25,7 @@ My research focuses on **smart grid monitoring, grid resilience, cyber-physical 
 
 <!-- I am a recipient of the **NYU SOE Fellowship (2023)** and have received multiple **travel grants** to present my research at top conferences including **IEEE PESGM** and **NAACL**.   -->
 
+<!--
 ---
 
 ## 🎯 **Hiring Ph.D. Students!**
@@ -32,7 +33,19 @@ My research focuses on **smart grid monitoring, grid resilience, cyber-physical 
 I am actively **recruiting highly motivated Ph.D. students** to join my research group at SIUC. If you are passionate about **power systems** and want to pursue **cutting-edge research** at the intersection of **cyber-physical systems, grid resilience, and AI**, feel free to reach out at **mdzahidul.islam@siu.edu**.  
 
 👉 **Learn more about open positions on the [Openings](/opening/) page.**
+-->
 
+---
+ 
+## 📰 Latest News
+ 
+<div style="line-height: 1.8;">
+{% for item in site.data.news limit:3 %}
+  {% include news-badge.html item=item %}
+{% endfor %}
+</div>
+[See all news →](/news/)
+ 
 ---
 
 ## 🔬 **Research Interests**
@@ -43,6 +56,7 @@ I am actively **recruiting highly motivated Ph.D. students** to join my research
 - Grid-edge resource management and optimization  
 - Power distribution systems and DER-rich environments  
 
+---
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: start;">
 

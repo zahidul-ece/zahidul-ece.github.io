@@ -1,0 +1,23 @@
+{% assign type = include.item.type %}
+{% case type %}
+  {% when "Paper" %}
+    {% assign bg = "#eaf2fe" %}{% assign border = "#4f8ef7" %}{% assign fg = "#2563eb" %}
+  {% when "Grant" %}
+    {% assign bg = "#eafaf1" %}{% assign border = "#34c78a" %}{% assign fg = "#1d8f5e" %}
+  {% when "Talk" %}
+    {% assign bg = "#f5eefe" %}{% assign border = "#a56ef0" %}{% assign fg = "#7c3aed" %}
+  {% when "Openings" %}
+    {% assign bg = "#fef6e7" %}{% assign border = "#f0b429" %}{% assign fg = "#b45309" %}
+  {% when "Service" %}
+    {% assign bg = "#e6fbfa" %}{% assign border = "#2dd4bf" %}{% assign fg = "#0f766e" %}
+  {% when "Teaching" %}
+    {% assign bg = "#fdeef3" %}{% assign border = "#f472b6" %}{% assign fg = "#db2777" %}
+  {% else %}
+    {% assign bg = "#f3f4f6" %}{% assign border = "#9ca3af" %}{% assign fg = "#4b5563" %}
+{% endcase %}
+<div style="display: flex; align-items: flex-start; gap: 0.75em; margin-bottom: 0.9em;">
+  <span style="flex-shrink: 0; width: 84px; box-sizing: border-box; text-align: center; padding: 2px 6px; border: 1px solid {{ border }}; background: {{ bg }}; color: {{ fg }}; border-radius: 999px; font-size: 13px; font-weight: 600;">{{ type | default: "News" }}</span>
+  <span style="font-size: 15px;">
+    <strong>[{{ include.item.date }}]</strong> {{ include.item.body }}{% if include.item.link %} <a href="{{ include.item.link | relative_url }}">Details →</a>{% endif %}
+  </span>
+</div>

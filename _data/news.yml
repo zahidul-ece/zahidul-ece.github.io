@@ -1,0 +1,46 @@
+# Add new items at the TOP of this list (newest first).
+#
+# type -> short category shown as a colored badge: "Paper", "Grant", "Talk", "Openings"
+#         (anything else just gets a plain gray badge)
+# date -> "YYYY/MM"
+# body -> the full sentence. Use <strong>...</strong> to bold key terms/names.
+# link -> optional URL for a "Details" link at the end. Delete the line if not needed.
+
+- type: "Service"
+  date: "2026/xx"
+  body: "Served as a panelist for the <strong>NSF CISE Directorate</strong> review panel."
+
+- type: "Openings"
+  date: "2026/08"
+  body: "Actively recruiting motivated <strong>Ph.D.</strong> students working on smart grid monitoring, cyber-physical resilience, and AI applications in power systems."
+  link: "/opening/"
+
+- type: "Teaching"
+  date: "2026/08"
+  body: "Developed a new course on <strong>cyber-physical power systems</strong> for Fall 2026."
+
+- type: "Talk"
+  date: "2026/07"
+  body: "Attended and presented our paper at <strong>IEEE PESGM 2026</strong> (Montréal, Canada)."
+
+- type: "Paper"
+  date: "2026/06"
+  body: "Our paper \"Risk-Aware Measurement Synchronization and Recovery for DSSE with Heterogeneous Data Sources\" has been accepted in <strong>IEEE Transactions on Instrumentation &amp; Measurement</strong>, with S. N. Edib, Y. Yao, F. Ding, and Y. Lin."
+
+- type: "Grant"
+  date: "2026/05"
+  body: "Received the <strong>Energy Boost Seed Grant</strong> from the SIU Advanced Energy Institute for \"<strong>Digital Twin–Enabled Co-Optimization of Energy and Crop Systems in Agrivoltaic Farms</strong>.\""
+
+- type: "Paper"
+  date: "2026/01"
+  body: "Our paper \"Neuro-Physics Hybrid State Estimation of Distribution System with Smart Meter Voltage Measurements\" has been accepted in <strong>IEEE Transactions on Smart Grid</strong>, with W. Zhang and Y. Lin."
+ 
+
+- type: "Paper"
+  date: "2025/10"
+  body: "Our paper \"Disaster-Resilient Cyber-Physical Distribution System Reconfiguration and Dynamic Networked Microgrid Formation under Intermittent Generation\" has been accepted in <strong>IEEE Transactions on Industry Applications</strong>, with Y. Lin and V. M. Vokkarane."
+
+
+- type: "New Role"
+  date: "2025/08"
+  body: "Started as a <strong>Tenure-Track Assistant Professor</strong> in the School of Electrical, Computer, and Biomedical Engineering (ECBE) at <strong>Southern Illinois University Carbondale (SIU)</strong>."
