@@ -23,6 +23,10 @@
   date: "2026/07"
   body: "Attended and presented our paper at <strong>IEEE PESGM 2026</strong> (Montréal, Canada)."
 
+- type: "Service"
+  date: "2026/06"
+  body: "Appointed as <strong>Secretary</strong> of the <strong>IEEE PES Task Force on Grid Resilience Advancement with Interdependent Infrastructures</strong>."
+
 - type: "Paper"
   date: "2026/06"
   body: "Our paper \"Risk-Aware Measurement Synchronization and Recovery for DSSE with Heterogeneous Data Sources\" has been accepted in <strong>IEEE Transactions on Instrumentation &amp; Measurement</strong>, with S. N. Edib, Y. Yao, F. Ding, and Y. Lin."
