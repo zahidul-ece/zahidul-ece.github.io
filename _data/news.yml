@@ -6,6 +6,28 @@
 # body -> the full sentence. Use <strong>...</strong> to bold key terms/names.
 # link -> optional URL for a "Details" link at the end. Delete the line if not needed.
 
+
+- type: "Service"
+  date: "2026/11"
+  body: 'Our panel, "<strong>When Emerging Demand Meets Extreme Events: Resilience of Data Centers and the Infrastructures They Depend On</strong>," was accepted as a panel session at <strong>IEEE PESGM 2027</strong> (San Francisco, California).'
+
+- type: "Paper"
+  date: "2026/11"
+  body: 'Submitted our paper "In-Network Measurement Exposure in AC State Estimation: Communication-Constrained Null-Space Attacks and Routing-Based Moving-Target Defense" to <strong>IEEE Transactions on Industry Applications</strong>.'
+
+- type: "Service"
+  date: "2026/11"
+  body: 'Chaired a technical session on "<strong>Situational Awareness, Security, and Privacy</strong>" at <strong>IEEE SmartGridComm 2026</strong> (College Station, Texas).'
+
+- type: "Service"
+  date: "2026/10"
+  body: 'Served as a panelist at the <strong>Illinois Innovation Network Conference 2026</strong>, discussing AI and cybersecurity in smart grids during the panel "<strong>Accelerating Clean Energy Innovation through Digital Engineering, AI, and Cybersecurity</strong>".'
+
+- type: "Outreach"
+  date: "2026/09"
+  body: 'Led <strong>Power Systems Lab</strong> demonstrations on clean energy and smart grids for prospective high-school students during <strong>SIU Day</strong>.'
+
+
 - type: "Service"
   date: "2026/xx"
   body: "Served as a panelist for the <strong>NSF CISE Directorate</strong> review panel."
